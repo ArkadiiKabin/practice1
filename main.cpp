@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <cctype>
 #include <vector>
-#include <windows.h>
+// #include <windows.h>
 #include <unordered_set>
 #include "structfortask.h"
 #include "task2_table.h"
@@ -225,8 +225,8 @@ int Task6::find_hash_miss(int a[], int n) {
 
 int main()
 {
-    SetConsoleCP(65001);
-    SetConsoleOutputCP(65001);
+    // SetConsoleCP(65001);
+    // SetConsoleOutputCP(65001);
     do {
         cout << "\nВыберите задачу:\n";
         cout << "(1) Задание 1. Операции с массивом\n";
